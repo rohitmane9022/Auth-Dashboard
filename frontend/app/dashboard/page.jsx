@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import TaskForm from "@/components/TaskForm";
 import TaskList from "@/components/TaskList";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://auth-dashboard-2.onrender.com/api";
 
 export default function Dashboard() {
   const router = useRouter();
